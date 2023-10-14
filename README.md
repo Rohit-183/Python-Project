@@ -2,7 +2,7 @@
 
 
 ## Introduction
-![KBC Logo](https://github.com/yourusername/yourrepository/raw/main/images/kbc_logo.png)
+![KBC Logo](https://images.justwatch.com/poster/248781841/s592/kaun-banega-crorepati)
 
 Welcome to the Kaun Banega Crorepati (KBC) Game! This is a text-based implementation of the popular Indian quiz show "Who Wants to Be a Millionaire?" written in [programming language]. Test your knowledge, answer questions, and see if you can win virtual prizes.
 
