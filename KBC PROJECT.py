@@ -29,7 +29,7 @@ options = [
     ["A.Mamta Banarjee","B.Ram Vilash","C.Ashwini Vaishnaw","D.Piyush Goyal"],
     ["A.Agni","B.Indra","C.Hanuman","D.Ganesha"],
     ["A.Money","B.Flowers","C.Leaves","D.Fruits"],
-    ["A.Banglore","B.Maysore","Jaipur","D.Kochi"],
+    ["A.Banglore","B.Maysore","C.Jaipur","D.Kochi"],
     ["A.Rabindranath Tagore","B.Lal Bahadur Shastri","C.Chetan Bhagat","D.RK Narayan"],
     ["A.6","B.7","C.8","D.9"],
     ["A.13 September","B.14 September","C.14 July","D.15 August"],
