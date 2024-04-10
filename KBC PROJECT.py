@@ -8,7 +8,7 @@ print(f"Hamare saamne hai {user_input1} ji")
 print("Toh chaliye hum Khel ka subhaarmbh karte hai")
 
 rules = """
-Aapke screen par ek, ek karke prashn puche jayenge uska aapko sahi jawab dena hai 
+Aapke screen par ek, ek karke prashn puche jayenge uska aapko sahi jawab dena hai
 phele prashn se 14 prashn hai es khel mein jawab aako A/B/C/D mein he dena hai
 """
 
@@ -56,6 +56,7 @@ answers = ["C", "A", "C", "A", "A", "B", "A", "D", "C", "D", "B", "B", "C", "C"]
 
 # Combine questions, options, and answers into a single list
 questions_options_answers = list(zip(questions, options, answers))
+
 # Shuffle the list
 random.shuffle(questions_options_answers)
 
@@ -68,7 +69,12 @@ for i, level in enumerate(levels):
     for option in options:
         print(option)
 
-    user_input2 = input("Enter your answer (A/B/C/D), or 'Q' to quit: ").upper()
+    while True:
+        user_input2 = input("Enter your answer (A/B/C/D), or 'Q' to quit: ").upper()
+        if user_input2 in ['A', 'B', 'C', 'D', 'Q']:
+            break
+        else:
+            print("Invalid input. Please enter a valid answer (A/B/C/D) or 'Q' to quit.")
 
     if user_input2 == 'Q':
         print("You chose to quit the game.")
@@ -80,6 +86,5 @@ for i, level in enumerate(levels):
     else:
         print("Wrong answer!")
         print(f"Correct answer was: {answer}")
+        print(f"You won a total of {total_winning} money.")
         break
-
-print(f"You won a total of {total_winning} money.")
